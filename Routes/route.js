@@ -5,6 +5,6 @@ const controllerClass = require('../Controller/controller');
 console.log("From routesssssssssssss");
 let contObj = new controllerClass();
 Router.route('/addCandidates')
-    .post(contObj.addCandidate)
+    .get(contObj.addCandidate)
 
 module.exports = Router;
